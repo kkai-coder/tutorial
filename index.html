@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Demo Page</title>
+</head>
+<body>
+
+    <h1>GitHub Tutorial Demo</h1>
+
+    <p id="message">
+        This is version 1 of the file.
+    </p>
+
+    <button onclick="changeText()">
+        Click to change text
+    </button>
+
+    <script>
+        function changeText() {
+            document.getElementById("message").innerText =
+                "This text was changed locally!";
+        }
+    </script>
+
+</body>
+</html>
